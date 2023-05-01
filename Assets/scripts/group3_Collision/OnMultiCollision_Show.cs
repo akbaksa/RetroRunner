@@ -37,6 +37,7 @@ public class OnMultiCollision_Show : MonoBehaviour
             // 표시하는 【showObject.SetActive(true); 대신】
             Vector3 pos = showObject.transform.position;
             pos.y = orgY;
+            pos.z = -7;
             showObject.transform.position = pos;
         }
     }
